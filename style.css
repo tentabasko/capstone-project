@@ -1,3 +1,51 @@
-.font{
-    font-family: 'Montserrat', sans-serif;
+body{
+    background-color: #00665E;
+    color:#212529
+}
+
+.bg-gl{
+    background-color: #00665E;
+}
+
+.bg-gd{
+    background-color: #00352F;
+    color: #CEDC00;
+}
+
+.bg-black {
+    background-color: #212529
+    
+}
+.bg-yellow{
+    background-color: #CEDC00;}
+
+.font-1{
+    font-family: 'Montserrat', sans-serif
+}
+.font-2{
+    font-family: 'Alfa Slab One', cursive;
+}
+.font-3{
+    font-family: 'Sarpanch', sans-serif;
+    font-weight: bold;
+}    
+
+.text-body-secondary{
+    color: #CEDC00!important;}
+
+#product img{
+    border-radius: 30%;
+    transform: rotate(0.05turn);
+    width: 300px;
+    height: auto;
+    border: solid #CEDC00;
+}
+
+#product h1{
+    color: 212529;
+    text-shadow: -1px 0 #CEDC00, 0 1px #CEDC00, 1px 0 #CEDC00, 0 -1px #CEDC00;
+}
+
+.rotate-h{
+    transform: rotate(-00.05turn);
 }

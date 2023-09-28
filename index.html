@@ -12,30 +12,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarpanch:wght@400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <section id="header" class="font">
-      <div class="container">
+    <section id="header" class="bg-yellow">
+      <div class="container font">
         <header
-          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-1 mb-4 border-bottom"
         >
           <div class="col-md-3 mb-2 mb-md-0">
             <a
-              href="/"
+              href="./index.html"
               class="d-inline-flex link-body-emphasis text-decoration-none"
             >
               <svg
-                class="bi"
-                width="40"
-                height="32"
-                role="img"
-                aria-label="Bootstrap"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="70px"
+                height="59px"
               >
-                <use xlink:href="#bootstrap"></use>
+                <image
+                  x="0px"
+                  y="0px"
+                  width="70px"
+                  height="59px"
+                  xlink:href="data:img/png;base64,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"
+                />
               </svg>
             </a>
           </div>
@@ -44,58 +49,50 @@
             class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
           >
             <li>
-              <a href="./index.html" class="nav-link px-2 link-secondary"
-                >Home</a
+              <a href="./index.html" class="nav-link px-2 disabled">Home</a>
+            </li>
+            <li>
+              <a href="./assets/hobbys.html" class="nav-link px-2 disabled"
+                >O mnie</a
               >
             </li>
             <li>
-              <a href="./assets/hobbys.html" class="nav-link px-2">O mnie</a>
-            </li>
-            <li>
-              <a href="./assets/contact.html" class="nav-link px-2">Kontakt</a>
+              <a href="./assets/contact.html" class="nav-link px-2 disabled"
+                >Kontakt</a
+              >
             </li>
           </ul>
           <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">
+            <button type="button" class="btn btn-outline-dark me-2">
               Fuck around
             </button>
-            <button type="button" class="btn btn-primary">Find out</button>
+            <button type="button" class="btn btn-outline-dark">Find out</button>
           </div>
         </header>
       </div>
     </section>
 
     <section id="product">
-      <div
-        class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary"
-      >
-        <div class="col-md-6 p-lg-5 mx-auto my-5">
-          <h1 class="display-3 fw-bold">Designed for engineers</h1>
-          <h3 class="fw-normal text-muted mb-3">
-            Build anything you want with Aperture
-          </h3>
-          <div class="d-flex gap-3 justify-content-center lead fw-normal">
-            <a class="icon-link" href="#">
-              Learn more
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-            <a class="icon-link" href="#">
-              Buy
-              <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
-            </a>
-          </div>
+      <div class="row overflow-hidden p-3 p-md-5 m-md-3 text-center">
+        <div class="col">
+          <img src="./assets/image/code.png" alt="code" />
         </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div
-          class="product-device product-device-2 shadow-sm d-none d-md-block"
-        ></div>
+        <div class="col p-lg-5 mx-auto my-5">
+          <h1 class="display-3 fw-bold font-1">i DO code</h1>
+          <h3 class="fw-normal text-muted mb-3 font-3">Dominik Karczmarczyk</h3>
+        </div>
+
+        <div class="col">
+          <img
+            src="https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU"
+            alt="lorem ipsum"
+            style="transform: rotate(-0.038turn); object-fit: cover"
+          />
+        </div>
       </div>
 
       <!-- <h1>Dominik Karczmarczyk</h1>
-    <img 
-        src="./assets/image/profile-photo.jpg" 
-        alt="profile photo of man in a coat"
-        height="300">
+    
     
     
     
@@ -141,14 +138,12 @@
         </h3>    
     </p> -->
     </section>
-    <!-- <hr />
-
-    <p><a href="./assets/contact.html">Contact me</a></p> -->
 
     <section id="footer">
-      <div class="container">
+      <div class="container bg-gd px-0">
         <footer
-          class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+          class="d-flex flex-wrap justify-content-between align-items-center px-5 py-3"
+          style="border-top: 1px solid"
         >
           <p class="col-md-4 mb-0 text-body-secondary">© 2023 Ten Tabasko</p>
 
