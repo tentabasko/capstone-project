@@ -37,15 +37,12 @@ body{
     border-radius: 30%;
     transform: rotate(0.05turn);
     width: 300px;
-    height: auto;
+    height: 300px;
     border: solid #CEDC00;
 }
 
 #product h1{
-    color: 212529;
+    color: #00352F;
     text-shadow: -1px 0 #CEDC00, 0 1px #CEDC00, 1px 0 #CEDC00, 0 -1px #CEDC00;
 }
 
-.rotate-h{
-    transform: rotate(-00.05turn);
-}
